@@ -7,3 +7,7 @@ read c
 echo $a
 echo $b
 echo $c
+
+Compute=$(($a+$(($b*$c))))
+echo $Compute
+
